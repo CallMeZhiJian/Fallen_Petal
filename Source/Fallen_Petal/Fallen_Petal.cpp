@@ -2,6 +2,9 @@
 
 
 #include "Fallen_Petal.h"
+#include "Modules/ModuleManager.h"
+
+IMPLEMENT_PRIMARY_GAME_MODULE(FDefaultGameModuleImpl, Fallen_Petal, "Fallen_Petal");
 
 Fallen_Petal::Fallen_Petal()
 {
